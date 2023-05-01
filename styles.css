@@ -1,0 +1,277 @@
+*{
+	font-size: 64.5%;
+	margin: 0;
+	padding: 0;
+	
+}
+
+header{
+	position: fixed;
+	display: flex;
+	align-items: center;
+}
+
+@media (min-width: 460px){ 
+
+	body{
+		font-size: 1.6em;
+	}
+
+	#header{
+		border-bottom: double #000000 6px;
+		width: 100%;
+		min-height: 7.5rem;
+		top: 0;
+		z-index: 100;
+		background-color:#ffffff;
+		font-size: 10rem;
+	}
+
+	.logo{
+		width: 60vw;
+	}
+
+	#header-img{
+		padding: 0 2rem;
+		height: 7rem;
+		width: 10rem;
+	}
+
+	nav{
+		margin-left: 18rem;
+	}
+
+	ul{
+		margin: 0 auto;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	li{
+		margin: 1rem;
+		list-style: none;
+	}
+
+	#form{
+		font-size: 2rem;
+		width: 33rem;
+		display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	  	margin: 7.5rem auto 0 auto;
+	  	padding: 4rem 0 0;
+	}
+
+
+	form p{
+		font-size: 3rem;
+		text-align: center;
+	}
+
+	#email{
+		margin:1rem 0 auto;
+		width: 19rem;
+	}
+
+	#submit{
+		padding: 1rem;
+		margin: 1rem auto;
+	}
+
+	.video{
+		margin-top: .3rem;
+		text-align: center;
+	}
+
+	video{
+		width: 50rem;
+		height: 29rem;
+	}
+
+	#whatsThis{
+		margin: 4rem;
+	}
+
+	#whatsThis h2{
+		font-size: 3rem;
+	}
+
+	#whatsThis p{
+		font-size: 2rem;
+	}
+
+	#meetUs{
+		margin: 4rem;
+	}
+
+	#meetUs h2{
+		font-size: 3rem;
+	}
+
+	#meetUs p{
+		font-size: 2rem;
+	}
+
+	#pricing{
+		text-align: center;
+		width: 120rem;
+		margin: 4rem auto;
+		position: relative;
+		font-size: 6rem;
+		display: flex;
+		flex-direction: row;
+		position: relative;
+		justify-content: center;
+		
+	}
+
+	.product-img{
+
+		margin: 0 auto;
+		width: 40rem;
+		height: 37rem;
+	}
+	footer{
+		border-top: double 6px;
+		background-color: #000000;
+		color:#ffffff;
+		text-align: center;
+		font-size: 4rem;
+		font-weight: bold;
+		width: 100%;
+	}
+}
+
+@media (max-width: 460px){
+	
+	body{
+		font-size: 3em;
+	}
+
+	#header{
+		border-bottom: double #000000 6px;
+		width: 100%;
+		min-height: 5.5rem;
+		top: 0;
+		z-index: 100;
+		background-color:#ffffff;
+		font-size: 9rem;
+	}
+
+	.logo{
+		width: 30vw;
+	}
+
+	#header-img{
+		padding: 0 2rem;
+		height: 3.5rem;
+		width: 5rem;
+	}
+
+	nav{
+		margin-left: 4rem;
+		margin-right: 1rem;
+	}
+
+	ul{
+		margin: 0 auto;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	li{
+		margin: .5rem;
+		list-style: none;
+	}
+
+	#form{
+		font-size: 2rem;
+		width: 100vw;
+		display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	  	margin: 7.5rem auto 0 auto;
+	  	padding: 4rem 0 0;
+	}
+
+
+	form p{
+		font-size: 2rem;
+		text-align: center;
+		width: 24rem;
+	}
+
+	#email{
+		margin:1rem 0 auto;
+		width: 70vw;
+	}
+
+	#submit{
+		padding: 1rem;
+		margin: 1rem auto;
+	}
+
+	#video{
+		margin-top: 0.3rem;
+		text-align:center;
+	}
+
+	video{
+		
+		width: 63vw;
+		height: 27vh;
+	}
+
+	#whatsThis{
+		margin: 4rem;
+	}
+
+	#whatsThis h2{
+		font-size: 2.5rem;
+	}
+
+	#whatsThis p{
+		font-size: 1.5rem;
+	}
+
+	#meetUs{
+		margin: 4rem;
+	}
+
+	#meetUs h2{
+		font-size: 2.5rem;
+	}
+
+	#meetUs p{
+		font-size: 1.5rem;
+	}
+
+	#pricing{
+		text-align: center;
+		width: 100vw;
+		margin: 4rem auto;
+		position: relative;
+		font-size: 5rem;
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		justify-content: center;
+		
+	}
+
+	.product-img{
+
+		margin: 0 auto;
+		width: 64vw;
+		height: 48vh;
+	}
+	footer{
+		width: 100%;
+		border-top: double 6px;
+		background-color: #000000;
+		color:#ffffff;
+		text-align: center;
+		font-size: 4rem;
+		font-weight: bold;
+	}
+}
